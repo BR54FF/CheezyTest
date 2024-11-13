@@ -1,16 +1,20 @@
 {
 	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
-	"map_name": "Elegia-class Explorer Schnau",
+	"map_name": "Elegia-class Battle Schnau",
 	"map_short_name": "Elegia",
-	"description": "Исследовательский корвет под названием Элегия предназначен для исследовательских задач, ведь он может находиться длительное время на самообеспечении. Основной целью является исследование планет и фауны. Для этого он оснащен шахтёрским инвентарём, боевым оружием и средствами стабилизации полевых оперативников, а также специальным медицинским боргом Синдиката.",
+	"description": "Боевой шахтёрский корвет под названием Elegia предназначен для диверсионных патрульных заданий, где он может находиться длительное время на самообеспечении. Основной целью является подрыв исследовательских и шахтёрских миссий NT. Для этого он оснащен шахтёрским инвентарём, боевым оружием и средствами стабилизации полевых оперативников.",
 	"map_path": "_maps/_mod_celadon/shuttles/syndicate/syndicate_elegia.dmm",
 	"enabled": true,
 	"limit": 1,
-	"prefix": "SSV",
+	"prefix": "BSSV",
 	"faction": "/datum/faction/syndicate",
-	"tags": ["Исследовательский"],
+	"tags": ["Шахтёрский", "Боевой"],
 	"namelists": [
-		"CYBERSUN"],
+		"GORLEX",
+		"NATURAL_AGGRESSIVE",
+		"BEASTS",
+		"WEAPONS"
+	],
 	"job_slots": {
 		"Captain": {
 			"outfit": "/datum/outfit/job/syndicate/captain/gorlex",
@@ -26,8 +30,8 @@
 			"slots": 1
 
 		},
-		"Cybersun scientist": {
-			"outfit": "/datum/outfit/job/syndicate/science/cybersun",
+				"Trooper": {
+			"outfit": "/datum/outfit/job/syndicate/security/gorlex",
 			"slots": 2
 		},
 		"Wrecker": {
