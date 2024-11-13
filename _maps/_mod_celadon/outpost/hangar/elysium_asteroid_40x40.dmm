@@ -734,7 +734,7 @@
 	},
 /area/hangar)
 "DK" = (
-/turf/closed/indestructible/rock/schist,
+/turf/closed/mineral/random/snow,
 /area/hangar)
 "DS" = (
 /obj/structure/fence/door,

@@ -6,10 +6,10 @@
 	"map_path": "_maps/_mod_celadon/shuttles/nanotrasen/nanotrasen_teardrop.dmm",
 	"enabled": true,
 	"limit": 1,
-	"prefix": "NTSPSV",
+	"prefix": "NTASV",
 	"faction": "/datum/faction/nt",
 	"tags": [
-		"Intelligence",
+		"Combat",
 		"Scout"
 	],
 	"namelists": [
@@ -17,23 +17,27 @@
 		"WEAPONS"
 	],
 	"job_slots": {
-		"Intelligence officer": {
+		"Lieutenant": {
 			"outfit": "/datum/outfit/job/nanotrasen/captain/lp",
 			"officer": true,
 			"slots": 1
-		}
+		},
+		"Flight group commander": {
+			"outfit": "/datum/outfit/job/nanotrasen/hos",
+			"officer": true,
+			"slots": 1
 		},
 		"Military technician": {
 			"outfit": "/datum/outfit/job/nanotrasen/engineer/lp",
 			"slots": 2
 		},
-		"Scout": {
+		"Flight group officer": {
 			"outfit": "/datum/outfit/job/nanotrasen/security/lp",
-			"slots": 4
+			"slots": 3
 		},
 		"Military surgeon": {
 			"outfit": "/datum/outfit/job/nanotrasen/paramedic",
 			"slots": 1
 		}
 	}
-
+}
