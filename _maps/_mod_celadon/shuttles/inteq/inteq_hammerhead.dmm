@@ -2105,9 +2105,7 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering/communications)
 "nR" = (
-/obj/machinery/vending/dinnerware{
-	all_items_free = 1
-	},
+/obj/machinery/vending/dinnerware,
 /turf/open/floor/plastic,
 /area/ship/crew/canteen/kitchen)
 "nS" = (
@@ -2818,8 +2816,7 @@
 	},
 /obj/machinery/vending/security/wall{
 	req_access_txt = "8485";
-	pixel_y = 28;
-	all_items_free = 1
+	pixel_y = 28
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/security/prison)
@@ -4273,8 +4270,7 @@
 /obj/effect/decal/cleanable/plasma,
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/machinery/vending/engivend{
-	req_access = null;
-	all_items_free = 1
+	req_access = null
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
@@ -5834,9 +5830,7 @@
 /area/ship/engineering/electrical)
 "JQ" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/machinery/vending/tool{
-	all_items_free = 1
-	},
+/obj/machinery/vending/tool,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "JS" = (
@@ -6854,9 +6848,7 @@
 /turf/closed/wall/mineral/plastitanium/interior,
 /area/ship/crew/canteen/kitchen)
 "Rg" = (
-/obj/machinery/vending/boozeomat{
-	all_items_free = 1
-	},
+/obj/machinery/vending/boozeomat,
 /turf/open/floor/plastic,
 /area/ship/crew/canteen/kitchen)
 "Rr" = (

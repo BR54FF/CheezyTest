@@ -599,9 +599,7 @@
 /turf/closed/wall/mineral/titanium,
 /area/ship/hallway/central)
 "cI" = (
-/obj/machinery/vending/robotics{
-	all_items_free = 1
-	},
+/obj/machinery/vending/robotics,
 /turf/open/floor/plasteel/white,
 /area/ship/science/robotics)
 "cN" = (

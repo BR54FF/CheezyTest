@@ -1087,7 +1087,7 @@
 	},
 /area/hangar)
 "DD" = (
-/turf/closed/indestructible/rock/schist,
+/turf/closed/mineral/random/snow,
 /area/hangar)
 "DG" = (
 /obj/structure/railing{

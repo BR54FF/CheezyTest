@@ -5200,9 +5200,7 @@
 /turf/open/floor/carpet/nanoweave/red,
 /area/ship/crew/crewthree)
 "Ss" = (
-/obj/machinery/vending/boozeomat{
-	all_items_free = 1
-	},
+/obj/machinery/vending/boozeomat,
 /obj/effect/turf_decal/corner/opaque/green/mono,
 /turf/open/floor/plasteel,
 /area/ship/crew/canteen/kitchen)
@@ -5649,8 +5647,7 @@
 /area/ship/hallway/central)
 "Wr" = (
 /obj/machinery/vending/clothing{
-	pixel_y = 10;
-	all_items_free = 1
+	pixel_y = 10
 	},
 /obj/machinery/light_switch{
 	dir = 8;
@@ -5721,9 +5718,7 @@
 /area/ship/hallway/central)
 "WR" = (
 /obj/effect/turf_decal/corner/opaque/white/mono,
-/obj/machinery/vending/dinnerware{
-	all_items_free = 1
-	},
+/obj/machinery/vending/dinnerware,
 /obj/machinery/light/directional/north,
 /turf/open/floor/plasteel,
 /area/ship/crew/canteen/kitchen)

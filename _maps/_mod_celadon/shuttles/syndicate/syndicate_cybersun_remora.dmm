@@ -1406,9 +1406,7 @@
 /turf/open/floor/wood/ebony,
 /area/ship/crew/dorm)
 "cS" = (
-/obj/machinery/vending/boozeomat{
-	all_items_free = 1
-	},
+/obj/machinery/vending/boozeomat,
 /turf/open/floor/wood/ebony,
 /area/ship/crew/dorm)
 "cT" = (
@@ -2752,8 +2750,7 @@
 	},
 /obj/machinery/vending/wardrobe/viro_wardrobe{
 	pixel_x = 5;
-	pixel_y = -1;
-	all_items_free = 1
+	pixel_y = -1
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/hallway/central)
@@ -2765,8 +2762,7 @@
 	},
 /obj/machinery/vending/wardrobe/chem_wardrobe{
 	pixel_x = -5;
-	pixel_y = -1;
-	all_items_free = 1
+	pixel_y = -1
 	},
 /obj/item/gun/ballistic/automatic/assault/hydra,
 /turf/open/floor/plasteel/white,
@@ -2857,8 +2853,7 @@
 	},
 /obj/machinery/vending/wardrobe/medi_wardrobe{
 	pixel_x = 5;
-	pixel_y = 5;
-	all_items_free = 1
+	pixel_y = 5
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/hallway/central)
@@ -2870,8 +2865,7 @@
 	},
 /obj/machinery/vending/wardrobe/robo_wardrobe{
 	pixel_x = -5;
-	pixel_y = 5;
-	all_items_free = 1
+	pixel_y = 5
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/hallway/central)
@@ -3387,9 +3381,7 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/obj/machinery/vending/tool{
-	all_items_free = 1
-	},
+/obj/machinery/vending/tool,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/engineering/electrical)
 "gn" = (
@@ -3762,9 +3754,7 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/machinery/vending/engivend{
-	all_items_free = 1
-	},
+/obj/machinery/vending/engivend,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/engineering/electrical)
 "gT" = (

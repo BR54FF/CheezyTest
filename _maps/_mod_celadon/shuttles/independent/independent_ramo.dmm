@@ -657,9 +657,7 @@
 /turf/open/floor/wood/walnut,
 /area/ship/crew/canteen)
 "bj" = (
-/obj/machinery/vending/boozeomat/all_access{
-	all_items_free = 1
-	},
+/obj/machinery/vending/boozeomat/all_access,
 /turf/closed/wall,
 /area/ship/crew/canteen)
 "bk" = (
