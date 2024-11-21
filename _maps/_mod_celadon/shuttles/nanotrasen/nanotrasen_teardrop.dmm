@@ -582,7 +582,7 @@
 /obj/effect/turf_decal/techfloor/orange{
 	dir = 4
 	},
-/obj/item/stack/sheet/mineral/plasma/twenty,
+/obj/item/stack/sheet/mineral/diamond/twenty,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
 "hh" = (
@@ -1759,9 +1759,7 @@
 	},
 /obj/machinery/power/terminal,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/port_gen/pacman{
-	anchored = 1
-	},
+/obj/machinery/power/port_gen/pacman/mrs,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "tp" = (
@@ -3066,7 +3064,7 @@
 	dir = 8
 	},
 /obj/machinery/light/floor,
-/obj/item/banner/solfed,
+/obj/item/banner/solfed/mundane,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/white,
 /area/ship/hallway/central)
